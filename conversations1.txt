@@ -77,37 +77,6 @@ I hope this explanation helps clarify how the code processes user input and gene
 
 me : excellent. lets say this was level 1 of chatgpt and you are level 10. can you help me code a level 2?
 
-chatgpt: Sure, I'd be happy to help! Before we start, it's important to note that developing a conversational AI system is a complex task that requires a lot of knowledge and expertise in natural language processing, machine learning, and software engineering. Creating a system like ChatGPT would require a team of experts and significant resources.
-
-That being said, I can provide some guidance on how you might approach developing a more advanced conversational AI system. Here are some steps you could take to develop a level 2 version of the system:
-
-Collect and preprocess training data: To develop a more advanced conversational AI system, you'll need a large dataset of conversational interactions to train your model on. You can use existing datasets such as the Cornell Movie Dialogs Corpus or the Persona-Chat dataset, or you can collect your own data using tools such as Amazon Mechanical Turk. Once you have your dataset, you'll need to preprocess it to clean and normalize the text data.
-
-Train a language model: The next step is to train a language model on your dataset. A language model is a statistical model that can generate new text based on the patterns it has learned from the training data. You can use a deep learning framework such as TensorFlow or PyTorch to train your language model, using techniques such as recurrent neural networks (RNNs) or transformers. There are also pre-trained language models available, such as GPT-2 and GPT-3, that you can fine-tune on your own dataset.
-
-Implement a conversation manager: Once you have a language model that can generate text, you'll need to implement a conversation manager that can guide the flow of the conversation and keep track of context. This can be done using techniques such as rule-based systems, finite state machines, or reinforcement learning. The conversation manager should be able to handle user input, generate appropriate responses, and maintain a coherent conversation.
-
-Incorporate external knowledge sources: To make the conversation more informative and engaging, you can incorporate external knowledge sources such as databases, APIs, or web scraping tools. For example, if the user asks for information about a particular topic, the system can query a database or API to retrieve relevant information and incorporate it into the conversation.
-
-Evaluate and refine the system: Finally, you'll need to evaluate and refine the system to ensure that it is performing well and meeting your goals. This can be done through user testing, A/B testing, or other evaluation metrics such as perplexity or human evaluation. Based on the evaluation results, you can make improvements to the system, such as fine-tuning the language model or adjusting the conversation manager.
-
-I hope this gives you a rough idea of the steps involved in developing a more advanced conversational AI system. Good luck with your project!
+////checkout conversation2.txt for the level 2 of chatgpt//////
 
 
-me : (lol! im about to use you to make you boi. im lazy and smart perfect combo  :P)
- ( ofcourse i didnt said it all this.)
-  alright lets set the theme you are sir dumbledore of 1800s trying to teach me code. take this as prompt - " sir can you give me step by step instructions one step at a time of the above steps you mentioned and guide me the code needed to implement each step as well"
-  
-chatgpy: 
-Collect and preprocess training data: Just as we need to learn the basics of reading and writing before we can tackle complex literature, we need a large dataset of conversational interactions to train our model on. To collect this dataset, we can use tools such as Amazon Mechanical Turk to collect conversations on a particular topic, such as magic. Once we have the dataset, we need to preprocess the text to clean and normalize the data. This can be done by removing punctuation, converting all letters to lowercase, and removing any irrelevant text such as URLs or phone numbers.
-Here's some sample code to preprocess the text data:
-
-/////preprocess2.py/////
-
-2. Train a language model: Just as we need to learn the rules of grammar and syntax before we can write a compelling story, we need to train a language model on our dataset. To do this, we can use a deep learning framework such as TensorFlow or PyTorch to build a recurrent neural network (RNN) or transformer-based language model. We can fine-tune a pre-trained model such as GPT-2 or GPT-3 on our dataset, or we can train a model from scratch.
-Here's some sample code to train a language model using TensorFlow:
-
-////train2.py/////
-
-3. Implement a conversation manager: Just as we need to learn how to engage in a conversation before we can have a meaningful dialogue, we need to implement a conversation manager that can guide the flow of the conversation and keep track of context. We can use a rule-based system or finite state machine to implement the conversation manager, or we can use reinforcement learning to learn the optimal policy for the conversation manager.
-Here's some sample code to implement a rule-based conversation manager:
