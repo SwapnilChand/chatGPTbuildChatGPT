@@ -34,3 +34,20 @@ Here's some sample code to train a language model using TensorFlow:
 Here's some sample code to implement a rule-based conversation manager:
 
 ////manager2.py/////
+
+me : what about 4 and 5 ? 
+
+chatgpt: 
+
+4. Apologies, I skipped steps 4 and 5 in my previous response. Here are the additional steps and sample code:
+
+Implement a response generator: Once we have a conversation manager that can understand the context and intent of the user's input, we need to generate a response that is both relevant and engaging. We can use a generative model such as GPT-2 or a retrieval-based model such as a nearest neighbor search or keyword matching to generate the response.
+Here's some sample code to implement a response generator using GPT-2:
+
+/////convai2.py////
+
+5. Evaluate and improve the model: Just as we need to receive feedback on our writing to improve our skills, we need to evaluate the performance of our conversational AI system and iterate on the model architecture and training process to improve its accuracy and fluency. We can use metrics such as perplexity, BLEU score, or human evaluation to measure the quality of the generated responses and identify areas for improvement.
+Here's some sample code to evaluate the performance of the model using perplexity:
+
+
+////eval2.py/////
